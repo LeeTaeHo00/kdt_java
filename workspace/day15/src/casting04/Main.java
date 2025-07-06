@@ -6,6 +6,8 @@ public class Main {
 		Hero ironMan = new IronMan("토니");
 		ironMan.superPower(); // 오버라이딩된 메소드 호출
 		
+		IronMan heros[] = new IronMan();
+		
 		Hero hulk  = new Hulk("짐레이너");
 		hulk.superPower();
 		

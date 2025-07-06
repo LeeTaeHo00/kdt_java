@@ -50,6 +50,10 @@ public class OperTask01 { // 클래스 시작
 		int change = money % PRICE; // 노래를 부르고 남은 돈을 현재 돈과 가격을 나눈 나머지로 구한다.
 		System.out.println(song + "곡을 부를 수 있으며 잔돈은 " + change + "원 입니다."); // 괄호안 내용 출력
 		
+		
+		
+		
+		
 		sc.close(); // 입력 클래스 종료
 
 	} // 메인메소드 끝
