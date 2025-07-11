@@ -1,14 +1,23 @@
 package day20_이태호;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.InputMismatchException;
 import java.util.Iterator;
+import java.util.Map;
+import java.util.Random;
 import java.util.Scanner;
 
 public class StuMain {
 
 	public static void main(String[] args) {
 		ArrayList<Student> studentList = new ArrayList<Student>();
+		Random r = new Random();
+		r.nextDouble(10);
+		Map<String, Integer> test = new HashMap<>();
+		
+		
+		//(int)((Math.random() * 10) + 1);
 		Scanner sc = new Scanner(System.in);
 		while(studentList.size() < 7) 
 		{
